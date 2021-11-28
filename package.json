@@ -1,0 +1,44 @@
+{
+  "name": "sic-codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc --project tsconfig.build-cjs.json",
+    "build:esm": "tsc --project tsconfig.build-esm.json",
+    "lint": "npm run lint:code && npm run lint:style",
+    "lint:code": "eslint src",
+    "lint:style": "prettier --check src",
+    "prepublishOnly": "npm run build",
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:unit:coverage": "jest --coverage",
+    "test:unit:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezard/sic-codes.git"
+  },
+  "author": "Ben Ezard",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ezard/sic-codes/issues"
+  },
+  "homepage": "https://github.com/Ezard/sic-codes#readme",
+  "devDependencies": {
+    "@types/jest": "27.0.3",
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "csv-parse": "^5.0.3",
+    "eslint": "8.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "jest": "27.3.1",
+    "prettier": "2.4.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.7",
+    "typescript": "4.5.2"
+  }
+}
