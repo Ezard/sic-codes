@@ -22,12 +22,13 @@ import { getDescription } from 'sic-codes';
 const description = getDescription('Information technology consultancy activities'); // '62020'
 ```
 
-To get a list of all SIC code data, use the `DATA` constant:
+To get a list of all SIC code data, use the `getData` function:
 
 ```typescript
-import { DATA } from 'sic-codes';
+import { getData } from 'sic-codes';
 
-/** DATA is in the format [code: string, description: string][], e.g.
+const data = getData();
+/** data is in the format [code: string, description: string][], e.g.
  * [
  *   ['01110', 'Growing of cereals (except rice), leguminous crops and oil seeds'],
  *   ['01120', 'Growing of rice'],
@@ -35,3 +36,7 @@ import { DATA } from 'sic-codes';
  * ]
  */
 ```
+
+### Notes
+
+The SIC code data is only loaded when it requested for the first time, and is cached in-memory for all future function calls

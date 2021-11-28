@@ -1,7 +1,6 @@
 .github
 .idea
 coverage
-data
 reports
 src
 
@@ -11,6 +10,7 @@ src
 .gitignore
 .npmignore
 .prettierrc
+data.csv
 jest.config.json
 release.config.js
 renovate.json
