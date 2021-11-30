@@ -2,7 +2,15 @@
   "name": "sic-codes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "types": "dist/types/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm run build:cjs && npm run build:esm",
