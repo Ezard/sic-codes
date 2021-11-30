@@ -1,6 +1,7 @@
 .github
 .idea
 coverage
+data
 reports
 src
 
@@ -10,7 +11,7 @@ src
 .gitignore
 .npmignore
 .prettierrc
-data.csv
+generate-data-file.js
 jest.config.json
 release.config.js
 renovate.json
@@ -18,3 +19,5 @@ tsconfig*.json
 */**/*.js.map
 */**/*.tsbuildinfo
 *.tgz
+
+!dist/data
