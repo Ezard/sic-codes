@@ -33,7 +33,7 @@
     "url": "git+https://github.com/Ezard/sic-codes.git"
   },
   "author": "Ben Ezard",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ezard/sic-codes/issues"
   },
