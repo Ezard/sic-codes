@@ -11,25 +11,13 @@ describe('Data', () => {
       expect(result[0][1]).toEqual('Growing of cereals (except rice), leguminous crops and oil seeds');
     });
 
-    it('should load data from the JSON file the first time data is requested', () => {
+    it('should load data from the JSON file', () => {
       const factory = jest.fn().mockReturnValue([]);
       jest.isolateModules(() => {
         jest.mock('../data/data.json', factory);
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
         const { getData: getDataFn } = require('./data');
 
-        getDataFn();
-
-        expect(factory).toHaveBeenCalledTimes(1);
-      });
-    });
-
-    it('should use cached data the second time data is requested', () => {
-      const factory = jest.fn().mockReturnValue([]);
-      jest.isolateModules(() => {
-        jest.mock('../data/data.json', factory);
-        const { getData: getDataFn } = require('./data');
-
-        getDataFn();
         getDataFn();
 
         expect(factory).toHaveBeenCalledTimes(1);
