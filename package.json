@@ -28,6 +28,12 @@
     "test:unit:coverage": "jest --coverage",
     "test:unit:watch": "jest --watch"
   },
+  "keywords": [
+    "sic",
+    "sic code",
+    "sic codes",
+    "standard industrial classification"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ezard/sic-codes.git"
