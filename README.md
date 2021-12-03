@@ -36,7 +36,3 @@ const data = getData();
  * ]
  */
 ```
-
-### Notes
-
-The SIC code data is only loaded when it requested for the first time, and is cached in-memory for all future function calls

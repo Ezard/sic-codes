@@ -1,6 +1,6 @@
 {
   "name": "sic-codes",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -28,12 +28,18 @@
     "test:unit:coverage": "jest --coverage",
     "test:unit:watch": "jest --watch"
   },
+  "keywords": [
+    "sic",
+    "sic code",
+    "sic codes",
+    "standard industrial classification"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ezard/sic-codes.git"
   },
   "author": "Ben Ezard",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ezard/sic-codes/issues"
   },
