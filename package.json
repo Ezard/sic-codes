@@ -46,8 +46,8 @@
   "homepage": "https://github.com/Ezard/sic-codes#readme",
   "devDependencies": {
     "@types/jest": "27.0.3",
-    "@typescript-eslint/eslint-plugin": "5.8.0",
-    "@typescript-eslint/parser": "5.8.0",
+    "@typescript-eslint/eslint-plugin": "5.8.1",
+    "@typescript-eslint/parser": "5.8.1",
     "cpy-cli": "3.1.1",
     "csv-parse": "5.0.3",
     "eslint": "8.5.0",
