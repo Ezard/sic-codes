@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/Ezard/sic-codes#readme",
   "devDependencies": {
-    "@types/jest": "27.5.2",
+    "@types/jest": "28.1.3",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
     "cpy-cli": "4.1.0",
@@ -53,11 +53,11 @@
     "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
-    "jest": "27.5.1",
+    "jest": "28.1.1",
     "move-file-cli": "3.0.0",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
-    "ts-jest": "27.1.5",
+    "ts-jest": "28.0.5",
     "typescript": "4.7.4"
   }
 }
