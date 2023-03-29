@@ -50,7 +50,7 @@
     "@typescript-eslint/parser": "5.57.0",
     "cpy-cli": "4.2.0",
     "csv-parse": "5.3.6",
-    "eslint": "8.36.0",
+    "eslint": "8.37.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "jest": "28.1.3",
