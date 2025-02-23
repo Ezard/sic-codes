@@ -57,7 +57,7 @@
     "move-file-cli": "3.0.0",
     "prettier": "3.5.2",
     "rimraf": "5.0.10",
-    "ts-jest": "29.2.5",
+    "ts-jest": "29.2.6",
     "typescript": "5.5.4"
   }
 }
